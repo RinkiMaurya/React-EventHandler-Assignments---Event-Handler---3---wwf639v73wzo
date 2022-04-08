@@ -23,7 +23,7 @@ const App = () => {
         type={"text"}
         value={input.textinput}
         onChange={handleInput}
-        name="text-input"
+        name="text-input is"
       />
 
       <br />
@@ -35,7 +35,7 @@ const App = () => {
         type={"number"}
         value={input.numinput}
         onChange={handleInput}
-        name="num-input"
+        name="num-input is"
       />
       <br />
     </div>
