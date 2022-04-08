@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/App.css";
-const App = (event) => {
+const App = () => {
   // const [input, setInput] = useState({
   //   textInput: "",
   //   numInput: ""
