@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "../styles/App.css";
 const App = () => {
   const [input, setInput] = useState({
-    textinput: "",
-    numinput: ""
+    textInput: "",
+    numInput: ""
   });
   const handleInput = (event) => {
     // use console.log
@@ -23,7 +23,7 @@ const App = () => {
         type={"text"}
         value={input.textinput}
         onChange={handleInput}
-        name="textinput"
+        name="text-input"
       />
 
       <br />
@@ -35,7 +35,7 @@ const App = () => {
         type={"number"}
         value={input.numinput}
         onChange={handleInput}
-        name="numinput"
+        name="num-input"
       />
       <br />
     </div>
